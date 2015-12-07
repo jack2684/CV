@@ -60,7 +60,7 @@
 \color[HTML]{303030} % Default foreground color
 \definecolor{link}{HTML}{506060} % Hyperlinks
 \hypersetup{colorlinks,breaklinks,urlcolor=link,linkcolor=link}
-\setkomafont{disposition}{\color[HTML]{801010}}
+\setkomafont{disposition}{\color[HTML]{000000}}
 \setkomafont{section}{\scshape\Large\mdseries}
 
 % In tccv \part must contain the subject of the curriculum vitae.
@@ -102,7 +102,7 @@
     \needspace{0.5\textheight}%
     \newdimen\boxwidth%
     \boxwidth=\dimexpr\linewidth-2\fboxsep\relax%
-    \colorbox[HTML]{F5DD9D}{%
+    \colorbox[HTML]{F2F2F2}{%
     \begin{tabularx}{\boxwidth}{c|X}
     \Writinghand & {#2}\smallskip\\
     \Telefon     & {#3}\smallskip\\
